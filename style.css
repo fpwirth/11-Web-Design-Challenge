@@ -30,6 +30,13 @@ p{
     padding: 30px;
 }
 
+.lgbox{
+    background-color: #ffffff;
+    margin-top: 50px;
+    padding: 30px;
+    padding-bottom: 100px;
+}
+
 img{
     width: 100%;
 }
@@ -66,6 +73,16 @@ h3{
     font-weight: bold ;
     font-size: 24px;
     text-align: center;
+    padding-top: 20px;
+}
+
+h4{
+    color: #009999;
+    font-weight: bold ;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 2px;
 }
 
 .navheader{
@@ -102,3 +119,23 @@ h3{
     padding: 0px;
 }
 
+@media (max-width: 992px){
+    .navbar-expand-lg{
+        background-color: #009999; 
+        padding: 0px;
+    }
+    
+    .navbar div{
+        background-color: #ffffff;
+        border: none;
+        padding: 0px;
+    }
+    
+    .nav-link{
+        padding-left: 20px !important;
+    }
+    
+    .dropdown-item{
+        padding-left: 35px;
+    }
+    }
